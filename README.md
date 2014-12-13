@@ -63,7 +63,7 @@ export HTTPS_PROXY=192.168.8.188:8580
 ```
 # iex -S mix
 ```
-![获取图书信息](/assets/images/AB1ABCAA-C1E6-4158-8256-92D61BD3AA8A.png)
+![获取图书信息](http://developerworks.github.io/assets/images/F228B9AD-80CE-4875-AFCB-49BF5446A67D.png)
 
 ## 参考资料
 
