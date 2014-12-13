@@ -1,0 +1,5 @@
+%{"ej": {:git, "git://github.com/seth/ej.git", "c683084665e1220616e611639fb13797b91281c6", []},
+  "httpotion": {:hex, :httpotion, "0.2.4"},
+  "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "7871e2ebe8811efb64e1917e2de455fa87e8dfe3", [tag: "v4.1.0"]},
+  "jiffy": {:git, "git://github.com/davisp/jiffy.git", "137d3d94b6ee10001d761d412cbbe7f665680c98", []},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "e751e3324fdfae4b43984650f7c8f4d5ea93da26", []}}
