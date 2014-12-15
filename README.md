@@ -86,7 +86,7 @@ https://github.com/developerworks/douban_book_api_v2
 - 2014-12-14 13:30
 使用[ej][4]模块获取由[jiffy][1], [mochijson2][2], 或 [ejson][3] 返回的Erlang terms
 
-![Javascript的访问方法和ej的访问方法对比](/assets/images/C2B21544-3DDE-48FF-A83E-229C5463790A.png)
+![Javascript的访问方法和ej的访问方法对比](http://developerworks.github.io/assets/images/C2B21544-3DDE-48FF-A83E-229C5463790A.png)
 
 ```
 # 把响应体解码为Erlang term
