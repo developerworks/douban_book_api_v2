@@ -1,5 +1,7 @@
 %{"ej": {:git, "git://github.com/seth/ej.git", "c683084665e1220616e611639fb13797b91281c6", []},
+  "fsm": {:git, "git://github.com/sasa1977/fsm.git", "392e36296145fd07456661365e242140417d641a", []},
   "httpotion": {:hex, :httpotion, "0.2.4"},
   "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "7871e2ebe8811efb64e1917e2de455fa87e8dfe3", [tag: "v4.1.0"]},
   "jiffy": {:git, "git://github.com/davisp/jiffy.git", "137d3d94b6ee10001d761d412cbbe7f665680c98", []},
+  "json": {:git, "git://github.com/cblage/elixir-json.git", "0b2839d6300b3a872f2aa3c1062fb5f3322fddbf", []},
   "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "e751e3324fdfae4b43984650f7c8f4d5ea93da26", []}}

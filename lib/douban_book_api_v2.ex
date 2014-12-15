@@ -54,6 +54,8 @@ defmodule DoubanBookApiV2 do
         url = process_url(book_id)
         IO.puts "Getting data from #{url}"
         response = HTTPotion.get(url, [], [:timeout, 15000])
+
+        json = :jiffy.decode response.body
         {[
             {"rating", rating},
             {"subtitle", subtitle},
@@ -78,7 +80,7 @@ defmodule DoubanBookApiV2 do
             {"author_intro", author_intro},
             {"summary", summary},
             {"price", price}
-        ]} = :jiffy.decode response.body
+        ]} = json
         %{
             rating: rating,
             subtitle: subtitle,
@@ -102,7 +104,8 @@ defmodule DoubanBookApiV2 do
             alt_title: alt_title,
             author_intro: author_intro,
             summary: summary,
-            price: price
+            price: price,
+            json: json
         }
     end
 end

@@ -28,9 +28,11 @@ defmodule DoubanBookApiV2.Mixfile do
     [
       {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.0"},
       {:jiffy, github: "davisp/jiffy"},
-      {:jsx, github: "talentdeficit/jsx"},
+      # {:jsx, github: "talentdeficit/jsx"},
       {:httpotion, "~> 0.2.0"},
-      {:ej, github: "seth/ej"}
+      {:ej, github: "seth/ej"},
+      {:fsm, github: "sasa1977/fsm"}
+      # ,{:json, github: "cblage/elixir-json"}
     ]
   end
 end
